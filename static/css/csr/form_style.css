@@ -1,0 +1,173 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+margin:0;
+padding:0;
+}
+
+body {
+	font-family: "微軟正黑體", "Microsoft JhengHei", "Arial", "新細明體";
+}
+
+.wrapper {
+max-width:100%;
+margin:0 auto;
+}
+
+.header {
+background-image:url(/static/images/csr/header-bg_01.jpg);
+background-size:cover;
+padding:70px;
+margin-bottom:20px;
+font-weight:lighter;
+}
+
+.header h1 {
+font-weight:normal;
+}
+
+.content {
+padding:0 30px;
+}
+
+.content h2 {
+font-size:18px;
+border-bottom:solid 1px #333333;
+line-height:30px;
+margin-bottom:10px;
+}
+
+.content_inner {
+background-color:#EAEAEA;
+padding:20px;
+font-size:13px;
+line-height:1.5;
+margin-bottom:20px;
+}
+
+.content_inner p {
+margin-bottom:10px;
+font-size:14px;
+}
+
+h3 {
+color:#FF0000;
+font-size:16px;
+margin-bottom:5px;
+}
+
+h4 {
+background-color:#CC0000;
+color:#fff;
+line-height:30px;
+text-indent:10px;
+font-size:14px;
+font-weight:normal;
+}
+
+.qa01 {
+padding:20px;
+}
+
+.qa01 p {
+font-size:14px;
+display:block;
+float:left;
+margin-bottom:20px;
+
+}
+
+.w200 {
+width:200px;
+}
+
+.w300 {
+width:300px;
+}
+
+.w400 {
+width:400px;
+}
+
+.formSTY {
+border:none;
+outline:none;
+background:none;
+background-color:#EAEAEA;
+padding:2px;
+width:250px;
+}
+
+.formSTY02 {
+margin-left:20px;
+}
+
+.formSTY03 {
+width:100%;
+height:100px;
+}
+
+.form_content {
+padding:0 30px;
+}
+
+.form_info {
+clear:both;
+padding:10px 20px;
+border-top:dotted 1px #666666;
+border-bottom:dotted 1px #666666;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.form-qa {
+border-top:dotted 1px #666666;
+border-bottom:dotted 1px #666666;
+padding:10px;
+overflow:hidden;
+font-size:14px;
+}
+
+.form_title {
+float:left;
+}
+
+.form_list {
+float:right;
+}
+
+.qa03 {
+margin:20px 0;
+font-size:14px;
+line-height:30px;
+}
+
+.footer {
+color:#CC0000;
+text-align:center;
+padding:20px;
+line-height:30px;
+}
+
+.formBTN {
+background:none;
+outline:none;
+border:none;
+background-color:#CC0000;
+color:#FFFFFF;
+padding:10px;
+width:100px;
+font-size:12px;
+border:solid 1px #CC0000;
+}
+
+.formBTN:hover {
+background-color:#FFFFFF;
+color:#CC0000;
+border:solid 1px #CC0000;
+}
+
+.right20 {
+margin-right:20px;
+}
